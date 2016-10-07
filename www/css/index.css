@@ -1,0 +1,119 @@
+html,
+body {
+    height: 100%;
+    padding-top: 0px;
+    font-family: sans-serif !important;
+}
+
+body {
+    position: relative;
+}
+
+.timetable {
+    visibility: visible;
+    position: relative;
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #ff5335;
+    text-align: center;
+}
+
+.title {
+    font-size: 18px;
+    /*color: gold;*/
+    color: white;
+    /*    font-family: "Modern No. 20";*/
+    position: relative;
+    top: 15px;
+}
+
+#data-container {
+    padding-top: 51px;
+    width: 100%;
+}
+
+#floating-button-right {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    position: fixed;
+    top: 4px;
+    right: 25px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #666;
+    color: white;
+}
+
+#floating-button-left {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #db4437;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #666;
+    color: white;
+}
+
+.time {
+    font-size: 50px;
+    font-family: "Modern No. 20", Times, serif;
+    text-align: center;
+    /*    padding-right: 0;*/
+}
+
+.row-day {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    padding: 0px;
+    width: 100%;
+}
+
+.btn-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    position: fixed;
+    /*bottom: 40px;*/
+    right: 4px;
+    top: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #666;
+    color: white;
+}
+
+
+/*
+#logout-button {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+*/
+
+.row {
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+
+/*
+.detail-column {
+    font-family: sans-serif;
+    font-size: 18px;
+}*/
